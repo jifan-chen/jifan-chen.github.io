@@ -2,95 +2,95 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Jifan Chen</title>
-    <link>https://jfchen.github.io/home/</link>
+    <link>https://jifan-chen.github.io/home/</link>
     <description>Recent content in Homes on Jifan Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://jfchen.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jifan-chen.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://jfchen.github.io/home/about/</link>
+      <link>https://jifan-chen.github.io/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://jfchen.github.io/home/about/</guid>
+      <guid>https://jifan-chen.github.io/home/about/</guid>
       <description>Biography Hi, I am currently a first-year Ph.D. student in the Computer Science department at the Univeristy of Texas at Austin, working with Professor Greg Durrett. My main research interests lie within natural language processing. Specifically, I am now working on incorporating inductive bias into the deep neural models to make model more explicit and interpretable.
 Before coming to UT Austin, I finished my undergraduate study at Fudan University. I also received a master degree from Fudan where I was advised by Professor Xuanjing Huang, Qi Zhang, and Xipeng Qiu.</description>
     </item>
     
     <item>
       <title>Selected Publications</title>
-      <link>https://jfchen.github.io/home/publications_selected/</link>
+      <link>https://jifan-chen.github.io/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://jfchen.github.io/home/publications_selected/</guid>
+      <guid>https://jifan-chen.github.io/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>https://jfchen.github.io/home/publications/</link>
+      <link>https://jifan-chen.github.io/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://jfchen.github.io/home/publications/</guid>
+      <guid>https://jifan-chen.github.io/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://jfchen.github.io/home/talks/</link>
+      <link>https://jifan-chen.github.io/home/talks/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://jfchen.github.io/home/talks/</guid>
+      <guid>https://jifan-chen.github.io/home/talks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Posts</title>
-      <link>https://jfchen.github.io/home/posts/</link>
+      <link>https://jifan-chen.github.io/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://jfchen.github.io/home/posts/</guid>
+      <guid>https://jifan-chen.github.io/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://jfchen.github.io/home/projects/</link>
+      <link>https://jifan-chen.github.io/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://jfchen.github.io/home/projects/</guid>
+      <guid>https://jifan-chen.github.io/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Miscs</title>
-      <link>https://jfchen.github.io/home/teaching/</link>
+      <link>https://jifan-chen.github.io/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://jfchen.github.io/home/teaching/</guid>
+      <guid>https://jifan-chen.github.io/home/teaching/</guid>
       <description>Coming soon &amp;hellip;&amp;hellip;</description>
     </item>
     
     <item>
       <title>Tags</title>
-      <link>https://jfchen.github.io/home/tags/</link>
+      <link>https://jifan-chen.github.io/home/tags/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
       
-      <guid>https://jfchen.github.io/home/tags/</guid>
+      <guid>https://jifan-chen.github.io/home/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://jfchen.github.io/home/contact/</link>
+      <link>https://jifan-chen.github.io/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://jfchen.github.io/home/contact/</guid>
+      <guid>https://jifan-chen.github.io/home/contact/</guid>
       <description></description>
     </item>
     

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jifan Chen on Jifan Chen</title>
-    <link>https://jfchen.github.io/</link>
+    <link>https://jifan-chen.github.io/</link>
     <description>Recent content in Jifan Chen on Jifan Chen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,46 +12,46 @@
     
     <item>
       <title>Learning Word Embeddings from Intrinsic and Extrinsic Views</title>
-      <link>https://jfchen.github.io/publication/arxiv16/</link>
+      <link>https://jifan-chen.github.io/publication/arxiv16/</link>
       <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://jfchen.github.io/publication/arxiv16/</guid>
+      <guid>https://jifan-chen.github.io/publication/arxiv16/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Implicit discourse relation detection via a deep architecture with gated relevance network</title>
-      <link>https://jfchen.github.io/publication/acl16/</link>
+      <link>https://jifan-chen.github.io/publication/acl16/</link>
       <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://jfchen.github.io/publication/acl16/</guid>
+      <guid>https://jifan-chen.github.io/publication/acl16/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep fusion LSTMs for text semantic matching</title>
-      <link>https://jfchen.github.io/publication/acl16_2/</link>
+      <link>https://jifan-chen.github.io/publication/acl16_2/</link>
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://jfchen.github.io/publication/acl16_2/</guid>
+      <guid>https://jifan-chen.github.io/publication/acl16_2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Incorporate group information to enhance network embedding</title>
-      <link>https://jfchen.github.io/publication/cikm16/</link>
+      <link>https://jifan-chen.github.io/publication/cikm16/</link>
       <pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://jfchen.github.io/publication/cikm16/</guid>
+      <guid>https://jifan-chen.github.io/publication/cikm16/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Discourse Relations Detection via a Mixed Generative-Discriminative Framework.</title>
-      <link>https://jfchen.github.io/publication/acl16-copy/</link>
+      <link>https://jifan-chen.github.io/publication/acl16-copy/</link>
       <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://jfchen.github.io/publication/acl16-copy/</guid>
+      <guid>https://jifan-chen.github.io/publication/acl16-copy/</guid>
       <description></description>
     </item>
     
