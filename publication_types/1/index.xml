@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 02 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jifan-chen.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Multi-hop Question Answering via Reasoning Chains</title>
+      <link>https://jifan-chen.github.io/publication/iclr20/</link>
+      <pubDate>Mon, 07 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jifan-chen.github.io/publication/iclr20/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Understanding Dataset Design Choices for Multi-hop Reasoning</title>
