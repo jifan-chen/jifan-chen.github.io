@@ -7,17 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Apr 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jifan-chen.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Robust Question Answering Through Sub-part Alignment</title>
-      <link>https://jifan-chen.github.io/publication/arxiv20/</link>
-      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      <title>Can NLI Models Verify QA Systems&#39; Predictions?</title>
+      <link>https://jifan-chen.github.io/publication/arxiv21/</link>
+      <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://jifan-chen.github.io/publication/arxiv20/</guid>
+      <guid>https://jifan-chen.github.io/publication/arxiv21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Question Answering Through Sub-part Alignment</title>
+      <link>https://jifan-chen.github.io/publication/naacl21/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jifan-chen.github.io/publication/naacl21/</guid>
       <description></description>
     </item>
     
