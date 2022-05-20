@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Generating Literal and Implied Subquestions to Fact-check Complex Claims</title>
+      <link>https://jifan-chen.github.io/publication/arxiv22/</link>
+      <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jifan-chen.github.io/publication/arxiv22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Can NLI Models Verify QA Systems&#39; Predictions?</title>
       <link>https://jifan-chen.github.io/publication/arxiv21/</link>
       <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
