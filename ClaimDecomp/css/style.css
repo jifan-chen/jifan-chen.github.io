@@ -1,0 +1,37 @@
+
+.citations {
+  max-height: 200px;
+  overflow: auto;
+}
+
+#main {
+  max-width: 1200px;
+}
+
+#navbar {
+  position: -webkit-sticky;  /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+#navbar-content {
+  max-width: 1200px;
+}
+
+#table-of-contents {
+  overflow: auto;
+}
+
+#leaderboard {
+  overflow-y: auto;
+}
+
+#questions-list-cell {
+  overflow-y: auto;
+}
+
+#question-display {
+  overflow-y: auto;
+}
+

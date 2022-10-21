@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CREAK Leaderboard</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./css/style.css" rel="stylesheet">
+    <!-- Favicons -->
+  </head>
+  <body>
+    <nav id="navbar" class="shadow-sm navbar navbar-light bg-light">
+      <div id="navbar-content" class="container">
+        <a class="navbar-brand" href="#">CREAK</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="./index.html" class="nav-link" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="./explorer.html" class="nav-link">Data Explorer</a></li>
+          <li class="nav-item"><a href="#" class="nav-link active">Leaderboard</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main id="main" class="container fs-5">
+      <div class="row flex-nowrap">
+        <div id="table-of-contents" class="col-3 border-end">
+          <h2 class="pt-4">Leaderboards</h2>
+          We host results only for Closed-Book methods that have been finetuned on only In-Domain data.
+          <hr/>
+          <h2 class="pt-2">Submissions</h2>
+          <p>
+          To add your system to our leaderboards, please see our <a href="https://github.com/yasumasaonoe/creak">submission instructions</a>.
+          </p>
+        </div>
+        <div id="leaderboard" class="col-9">
+          <div class="p-5">
+            <h3 class="fw-bold">Closed-Book: In-Domain</h3>
+            <table class="table mt-3">
+              <thead>
+                <tr>
+                  <th scope="col">Rank</th>
+                  <th scope="col">System</th>
+                  <th scope="col">Dev Set</th>
+                  <th scope="col">Test Set</th>
+                  <th scope="col">Contrastive Set</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">-</th>
+                  <td>Human (ensembled)</td>
+                  <td>99.0</td>
+                  <td>-</td>
+                  <td>99.0</td>
+                </tr>
+                <tr>
+                  <th scope="row">-</th>
+                  <td>Human (averaged)</td>
+                  <td>96.3</td>
+                  <td>-</td>
+                  <td>92.2</td>
+                </tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>T5-3B</td>
+                  <td>85.6</td>
+                  <td>85.1</td>
+                  <td>70.0</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>RoBERTa-Large</td>
+                  <td>80.6</td>
+                  <td>80.3</td>
+                  <td>61.5</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>RoBERTa-Base</td>
+                  <td>72.2</td>
+                  <td>71.6</td>
+                  <td>56.0</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Bootstrap Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
