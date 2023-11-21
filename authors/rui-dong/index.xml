@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rui Dong on Jifan Chen</title>
+    <link>https://jifan-chen.github.io/authors/rui-dong/</link>
+    <description>Recent content in Rui Dong on Jifan Chen</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://jifan-chen.github.io/authors/rui-dong/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Improving Cross-task Generalization of Unified Table-to-text Models with Compositional Task Configurations</title>
+      <link>https://jifan-chen.github.io/publication/compositional-task-configs/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jifan-chen.github.io/publication/compositional-task-configs/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -4,102 +4,34 @@
     <title>1 on Jifan Chen</title>
     <link>https://jifan-chen.github.io/publication_types/1/</link>
     <description>Recent content in 1 on Jifan Chen</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 May 2022 00:00:00 +0000</lastBuildDate>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://jifan-chen.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://jifan-chen.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Generating Literal and Implied Subquestions to Fact-check Complex Claims</title>
-      <link>https://jifan-chen.github.io/publication/arxiv22/</link>
-      <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
+      <title>Improving Cross-task Generalization of Unified Table-to-text Models with Compositional Task Configurations</title>
+      <link>https://jifan-chen.github.io/publication/compositional-task-configs/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://jifan-chen.github.io/publication/arxiv22/</guid>
-      <description></description>
+      <guid>https://jifan-chen.github.io/publication/compositional-task-configs/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
     </item>
     
     <item>
-      <title>Can NLI Models Verify QA Systems&#39; Predictions?</title>
-      <link>https://jifan-chen.github.io/publication/arxiv21/</link>
-      <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
+      <title>Generating literal and implied subquestions to fact-check complex claims</title>
+      <link>https://jifan-chen.github.io/publication/fact-check-via-sub-questions/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://jifan-chen.github.io/publication/arxiv21/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Robust Question Answering Through Sub-part Alignment</title>
-      <link>https://jifan-chen.github.io/publication/naacl21/</link>
-      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://jifan-chen.github.io/publication/naacl21/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multi-hop Question Answering via Reasoning Chains</title>
-      <link>https://jifan-chen.github.io/publication/iclr20/</link>
-      <pubDate>Mon, 07 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jifan-chen.github.io/publication/iclr20/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Understanding Dataset Design Choices for Multi-hop Reasoning</title>
-      <link>https://jifan-chen.github.io/publication/naacl-19/</link>
-      <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jifan-chen.github.io/publication/naacl-19/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning Word Embeddings from Intrinsic and Extrinsic Views</title>
-      <link>https://jifan-chen.github.io/publication/arxiv16/</link>
-      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://jifan-chen.github.io/publication/arxiv16/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Implicit discourse relation detection via a deep architecture with gated relevance network</title>
-      <link>https://jifan-chen.github.io/publication/acl16/</link>
-      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://jifan-chen.github.io/publication/acl16/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep fusion LSTMs for text semantic matching</title>
-      <link>https://jifan-chen.github.io/publication/acl16_2/</link>
-      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://jifan-chen.github.io/publication/acl16_2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Incorporate group information to enhance network embedding</title>
-      <link>https://jifan-chen.github.io/publication/cikm16/</link>
-      <pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://jifan-chen.github.io/publication/cikm16/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Discourse Relations Detection via a Mixed Generative-Discriminative Framework.</title>
-      <link>https://jifan-chen.github.io/publication/acl16-copy/</link>
-      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://jifan-chen.github.io/publication/acl16-copy/</guid>
-      <description></description>
+      <guid>https://jifan-chen.github.io/publication/fact-check-via-sub-questions/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
     </item>
     
   </channel>

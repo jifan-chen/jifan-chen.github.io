@@ -4,11 +4,11 @@
     <title>Categories on Jifan Chen</title>
     <link>https://jifan-chen.github.io/categories/</link>
     <description>Recent content in Categories on Jifan Chen</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
+    <copyright>Copyright &amp;copy; {year}</copyright>
     
-	<atom:link href="https://jifan-chen.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://jifan-chen.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
