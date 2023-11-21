@@ -56,5 +56,27 @@
 </description>
     </item>
     
+    <item>
+      <title> Can NLI Models Verify QA Systems&#39; Predictions?</title>
+      <link>https://jifan-chen.github.io/publication/nli-verification-qa/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jifan-chen.github.io/publication/nli-verification-qa/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Understanding Dataset Design Choices for Multi-hop Reasoning</title>
+      <link>https://jifan-chen.github.io/publication/dataset-choice-multihop/</link>
+      <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jifan-chen.github.io/publication/dataset-choice-multihop/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
