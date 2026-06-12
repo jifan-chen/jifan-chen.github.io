@@ -7,16 +7,38 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Wed, 01 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://jifan-chen.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Breaking the Code: Security Assessment of AI Code Agents through Systematic Jailbreaking Attacks</title>
+      <link>https://jifan-chen.github.io/publication/breaking-the-code/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+
+      <guid>https://jifan-chen.github.io/publication/breaking-the-code/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+
+    <item>
+      <title>CiteEval: Principle-Driven Citation Evaluation for Source Attribution</title>
+      <link>https://jifan-chen.github.io/publication/citeeval/</link>
+      <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
+
+      <guid>https://jifan-chen.github.io/publication/citeeval/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+
+    <item>
       <title>Using Natural Language Explanations to Rescale Human Judgments</title>
       <link>https://jifan-chen.github.io/publication/explanation-based-rescaling/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      
+
       <guid>https://jifan-chen.github.io/publication/explanation-based-rescaling/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;

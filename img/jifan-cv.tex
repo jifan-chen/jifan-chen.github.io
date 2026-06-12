@@ -1,0 +1,220 @@
+%==============================================================================
+%  Jifan Chen — Curriculum Vitae
+%  Clean single-column academic CV
+%  Compile with: xelatex jifan-cv.tex   (or: pdflatex jifan-cv.tex)
+%==============================================================================
+\documentclass[11pt,letterpaper]{article}
+
+%--- Packages ----------------------------------------------------------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage[hidelinks]{hyperref}
+
+%--- Colors ------------------------------------------------------------------
+\definecolor{coral}{HTML}{FC6F5C}   % site accent
+\definecolor{ink}{HTML}{222222}
+\definecolor{gray}{HTML}{666666}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=coral,
+  linkcolor=coral,
+}
+
+%--- Typography --------------------------------------------------------------
+\color{ink}
+\setlength{\parindent}{0pt}
+\linespread{1.04}
+
+% Section headings: small caps + coral rule underneath
+\titleformat{\section}
+  {\Large\scshape\color{ink}}
+  {}{0em}{}[{\color{coral}\titlerule[1.2pt]}]
+\titlespacing*{\section}{0pt}{14pt}{8pt}
+
+%--- Helper macros ------------------------------------------------------------
+
+% Header entry with right-aligned location and (next line) role + dates.
+% #1 institution  #2 location  #3 role  #4 dates
+\newcommand{\entry}[4]{%
+  \begin{tabularx}{\textwidth}{@{}X r@{}}
+    \textbf{#1} & \textsc{\small\color{gray}#2}\\
+    \emph{#3}   & \emph{\small\color{gray}#4}\\
+  \end{tabularx}%
+  \vspace{2pt}%
+}
+
+% Tight bullet list
+\newenvironment{tightlist}
+  {\begin{itemize}[leftmargin=1.4em,topsep=2pt,itemsep=1pt,parsep=0pt]}
+  {\end{itemize}}
+
+% Publication item
+\newcommand{\pub}[1]{\item #1}
+
+%==============================================================================
+\begin{document}
+
+%--- Name + contact ----------------------------------------------------------
+\begin{center}
+  {\Huge\bfseries Jifan Chen}\\[6pt]
+  {\small\color{gray}
+    \faEnvelope\ \href{mailto:chenjf@amazon.com}{chenjf@amazon.com}
+    \quad\textbar\quad
+    \faPhone\ +1 737 781 4043
+    \quad\textbar\quad
+    \faGlobe\ \href{https://jifan-chen.github.io/}{jifan-chen.github.io}\\[2pt]
+    \faMapMarker*\ 2795 Augustine Dr, Santa Clara, California, US
+  }
+\end{center}
+\vspace{4pt}
+
+%--- Industry Experience ------------------------------------------------------
+\section{Industry Experience}
+
+\entry{AWS AI Lab}{Santa Clara, US}{Applied Scientist}{2023.06 -- Present}
+\begin{tightlist}
+  \item[] \textbf{Kiro Science}
+  \begin{tightlist}
+    \item Lead the interactive (user--agent simulation) and prefix-based environment
+          creation work for training the Kiro first-party code agent.
+    \item Lead the Kiro live data analysis effort and code-agent training via on-policy
+          distillation with live trajectories.
+  \end{tightlist}
+  \item[] \textbf{Amazon Q Science}
+  \begin{tightlist}
+    \item Co-lead the evaluation of the RAG system, focusing on citation evaluation of the
+          final response (\emph{CiteEval}).
+    \item Lead the development of RAG systems that retrieve and answer questions over
+          table content.
+  \end{tightlist}
+  \item[] \textbf{Applied Scientist Intern}\hfill\emph{\small\color{gray}2022.05 -- 2022.09}
+  \begin{tightlist}
+    \item Mentors: Yuhao Zhang, Lan Liu.
+    \item Improving cross-task generalization of unified table-to-text models with
+          compositional task configurations.
+  \end{tightlist}
+\end{tightlist}
+\vspace{4pt}
+
+\entry{Google Language}{New York, US}{Research Intern \& Student Researcher}{2020.05 -- 2020.11}
+\begin{tightlist}
+  \item Mentors: Daniel Andor, Livio Baldini Soares
+  \item Robust question answering by incorporating linguistic explanations.
+\end{tightlist}
+
+%--- Education ----------------------------------------------------------------
+\section{Education}
+
+\entry{University of Texas at Austin}{Austin, Texas, US}{Ph.D. in Computer Science}{2017 -- 2023}
+\begin{tightlist}
+  \item Advisors: \href{https://www.cs.utexas.edu/~gdurrett/}{Greg Durrett}, \href{https://eunsol.github.io/}{Eunsol Choi}
+  \item Dissertation: \emph{Building Robust and Modular Question Answering Systems}
+\end{tightlist}
+\vspace{4pt}
+
+\entry{Fudan University}{Shanghai, China}{MSc in Computer Science}{2014 -- 2017}
+\begin{tightlist}
+  \item Advisor: XuanJing Huang
+  \item Research: Implicit Discourse Relation Detection on PDTB; Learning Word Embeddings
+        using both Intrinsic and Extrinsic Information
+\end{tightlist}
+\vspace{4pt}
+
+\entry{Fudan University}{Shanghai, China}{BSc in Computer Science}{2010 -- 2014}
+
+%--- Publications -------------------------------------------------------------
+\clearpage
+\section{Publications}
+{\small
+\begin{enumerate}[leftmargin=1.6em,topsep=2pt,itemsep=4pt,parsep=0pt]
+  \pub{Shoumik Saha, \textbf{Jifan Chen}, Sam Mayers, Sanjay Krishna Gouda, Zijian Wang,
+       Varun Kumar. Breaking the Code: Security Assessment of AI Code Agents through
+       Systematic Jailbreaking Attacks. \emph{arXiv:2510.01359}, 2025.}
+  \pub{Yumo Xu, Peng Qi, \textbf{Jifan Chen}, Kunlun Liu, Rujun Han, Lan Liu, Bonan Min,
+       Vittorio Castelli, Arshit Gupta, Zhiguo Wang. CiteEval: Principle-Driven Citation
+       Evaluation for Source Attribution. \emph{ACL}, 2025.}
+  \pub{Marc E. Canby, Xinchi Chen, Xing Niu, \textbf{Jifan Chen}, Bonan Min, Sergul Aydore,
+       Vittorio Castelli. Benchmarking Query-Conditioned Natural Language Inference.
+       \emph{Findings of ACL}, 2025.}
+  \pub{Zhengxuan Wu, Yuhao Zhang, Peng Qi, Yumo Xu, Rujun Han, Yian Zhang, \textbf{Jifan Chen},
+       Bonan Min, Zhiheng Huang. Dancing in Chains: Reconciling Instruction Following and
+       Faithfulness in Language Models. \emph{EMNLP}, 2024.}
+  \pub{Manya Wadhwa, \textbf{Jifan Chen}, Jessy Li, Greg Durrett. Using Natural Language
+       Explanations to Rescale Human Judgments. \emph{COLM}, 2024.}
+  \pub{\textbf{Jifan Chen}, Grace Kim, Aniruddh Sriram, Greg Durrett, Eunsol Choi. Complex
+       Claim Verification with Evidence Retrieved in the Wild. \emph{NAACL}, 2024.}
+  \pub{\textbf{Jifan Chen}. Building Robust and Modular Question Answering Systems.
+       \emph{Ph.D. Dissertation}, 2023.}
+  \pub{\textbf{Jifan Chen}, Yuhao Zhang, Lan Liu, Rui Dong, Xinchi Chen, Patrick Ng,
+       William Yang Wang, Zhiheng Huang. Improving Cross-task Generalization of Unified
+       Table-to-text Models with Compositional Task Configurations. \emph{Findings of ACL}, 2023.}
+  \pub{Venelin Kovatchev, Trina Chatterjee, Venkata S. Govindarajan, \textbf{Jifan Chen},
+       Eunsol Choi, Gabriella Chronis, Anubrata Das, Katrin Erk, Matthew Lease, Junyi Jessy Li,
+       Yating Wu, Kyle Mahowald. Longhorns at DADC 2022: How Many Linguists Does It Take to
+       Fool a Question Answering Model? A Systematic Approach to Adversarial Attacks.
+       \emph{DADC Workshop at EMNLP}, 2022.}
+  \pub{\textbf{Jifan Chen}, Aniruddh Sriram, Eunsol Choi, Greg Durrett. Generating Literal and
+       Implied Subquestions to Fact-check Complex Claims. \emph{EMNLP}, 2022.}
+  \pub{\textbf{Jifan Chen}, Eunsol Choi, Greg Durrett. Can NLI Models Verify QA Systems'
+       Predictions? \emph{Findings of EMNLP}, 2021.}
+  \pub{Greg Durrett, \textbf{Jifan Chen}, Shrey Desai, Tanya Goyal, Lucas Kabela, Yasumasa Onoe,
+       Jiacheng Xu. Contemporary NLP Modeling in Six Comprehensive Programming Assignments.
+       \emph{Proceedings of the Fifth Workshop on Teaching NLP}, 2021.}
+  \pub{\textbf{Jifan Chen}, Greg Durrett. Robust Question Answering via Sub-part Alignment.
+       \emph{NAACL}, 2021.}
+  \pub{\textbf{Jifan Chen}, Shih-ting Lin, Greg Durrett. Multi-hop Question Answering via
+       Reasoning Chains. \emph{arXiv}, 2019.}
+  \pub{\textbf{Jifan Chen}, Greg Durrett. Understanding Dataset Design Choices for Multi-hop
+       Reasoning. \emph{NAACL}, 2019.}
+  \pub{\textbf{Jifan Chen}, Greg Durrett. How to Learn (and How Not to Learn) Multi-hop
+       Reasoning with Memory Networks. \emph{OpenReview}, 2019.}
+  \pub{\textbf{Jifan Chen}, Qi Zhang, Pengfei Liu, Xipeng Qiu, Xuanjing Huang. Implicit Discourse
+       Relation Detection via a Deep Architecture with Gated Relevance Network.
+       \emph{ACL}, 2016. (Oral)}
+  \pub{\textbf{Jifan Chen}, Qi Zhang, Pengfei Liu, Xuanjing Huang. Discourse Relations Detection
+       via a Mixed Generative-Discriminative Framework. \emph{AAAI}, 2016.}
+  \pub{\textbf{Jifan Chen}, Kan Chen, Xipeng Qiu, Qi Zhang, Xuanjing Huang, Zheng Zhang. Learning
+       Word Embeddings from Intrinsic and Extrinsic Views. \emph{arXiv:1608.05852}, 2016.}
+  \pub{\textbf{Jifan Chen}, Qi Zhang, Xuanjing Huang. Incorporate Group Information to Enhance
+       Network Embedding. \emph{CIKM}, 2016. (Short paper)}
+  \pub{Pengfei Liu, Xipeng Qiu, \textbf{Jifan Chen}, Xuanjing Huang. Deep Fusion LSTMs for Text
+       Semantic Matching. \emph{ACL}, 2016.}
+  \pub{Pengfei Liu, Xipeng Qiu, Yaqian Zhou, \textbf{Jifan Chen}, Xuanjing Huang. Modelling
+       Interaction of Sentence Pair with Coupled-LSTMs. \emph{EMNLP}, 2016.}
+  \pub{Yikang Shen, \textbf{Jifan Chen}, Xuanjing Huang. Bidirectional Long Short-Term Memory
+       with Gated Relevance Network for Paraphrase Identification. \emph{ICCPOL}, 2016.}
+\end{enumerate}
+}
+
+%--- Academic Service ---------------------------------------------------------
+\section{Academic Service}
+{\small
+\begin{tightlist}
+  \item \textbf{Reviewer:} ACL Rolling Review (21-09 -- 23-02); NeurIPS 2021--2023;
+        AKBC 2021--2022; ICLR 2020--2023; ACL-IJCNLP 2021--2023; EMNLP 2021--2022; NLPCC 2021.
+  \item \textbf{Workshop reviewer:} SRW @ ACL-IJCNLP 2021--2022; SRW @ NAACL 2019, 2021;
+        SRW @ AACL-IJCNLP 2020; DeepLo @ EMNLP 2019.
+  \item \textbf{Program committee:} Workshop on Machine Reading for Question Answering @ EMNLP 2021.
+  \item \textbf{Volunteer:} ACL 2015 (Beijing); WSDM 2015 (Shanghai).
+  \item Masters Admissions Committee member, UT Austin Computer Science Department, 2020.
+\end{tightlist}
+}
+
+%--- Teaching -----------------------------------------------------------------
+\section{Teaching Experience}
+{\small
+\begin{tightlist}
+  \item TA, C++ Programming Language, Fudan University --- Spring 2016.
+  \item TA, Natural Language Processing (CS388), UT Austin --- Fall 2018, Fall 2021.
+\end{tightlist}
+}
+
+\end{document}
